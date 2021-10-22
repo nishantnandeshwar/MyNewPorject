@@ -4,16 +4,17 @@
         <link rel="stylesheet" href="Registration_page.css">
     </head>
     <body>
-        
+       
         <div class="modal2">
             <form class="modal-content2">
             <div class="container">
-                <div class="heading">
+                <div class="heading" style="text-align: center; color:rgb(237, 238, 178) ;">
                     <H3>Registration Form</H3>
                 </div>
+                <div class="cross"><i class="fa fa-close"></i></div>
               <div class="row">
                 <div class="col-1">
-                  <label for="fname">First Name</label>
+                  <label for="fname" style="color: aliceblue;">First Name</label>
                 </div>
                 <div class="col-2">
                   <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -21,7 +22,7 @@
               </div>
               <div class="row">
                 <div class="col-1">
-                  <label for="lname">Last Name</label>
+                  <label for="lname" style="color: aliceblue;">Last Name</label>
                 </div>
                 <div class="col-2">
                   <input type="text" id="lname" name="lastname" placeholder="Your last name..">
@@ -29,7 +30,7 @@
               </div>
               <div class="row">
                 <div class="col-1">
-                  <label for="Email">Email</label>
+                  <label for="Email" style="color: aliceblue;">Email</label>
                 </div>
                 <div class="col-2">
                   <input type="email" id="email" name="email" placeholder="Write Email..">
@@ -37,15 +38,19 @@
               </div>
               <div class="row">
                 <div class="col-1">
-                  <label for="contact">Contact No</label>
+                  <label for="contact" style="color: aliceblue;">Contact No</label>
                 </div>
                 <div class="col-2">
                   <input type="tel" id="contact" name="contact" placeholder="Your contact no.." >
                 </div>
               </div>
-              <div>
-                <button type="submit" value="Submit">Submit</button>
+              <div class="register_back">
+                  <div class="row_button">
+                <button type="submit" value="Submit">Register</button>
+                <button type="submit" value="back">Back</button>
+                    </div>
               </div>
+              
              
             </div>
             </form>
